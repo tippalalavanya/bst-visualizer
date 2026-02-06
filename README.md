@@ -120,3 +120,9 @@ Inspired by the excellent [VisuAlgo](https://visualgo.net/en/bst) visualization 
 ---
 
 **Made with ❤️ for learning and teaching data structures**
+
+## 🔗 Live Demo
+
+You can view the deployed application here:
+
+https://bstvisualizer-ten.vercel.app/
