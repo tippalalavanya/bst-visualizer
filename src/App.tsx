@@ -1,4 +1,4 @@
-import React, { useState, useCallback, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { BST, TreeNode } from './BST';
 import { TreeCanvas } from './TreeCanvas';
 import './App.css';
@@ -22,7 +22,7 @@ export function App() {
   const [message, setMessage] = useState('');
   const [speed, setSpeed] = useState(1);
   const [isAnimating, setIsAnimating] = useState(false);
-  const animationIntervalRef = useRef<NodeJS.Timeout | null>(null);
+  const animationIntervalRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   // Auto-play animation
   useEffect(() => {
