@@ -3,8 +3,8 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Hacklab / Make something worth talking about',
-  description: 'A focused hackathon for curious minds who turn big questions into practical, powerful projects.',
+  title: 'Squid Games Hackathon | Build. Compete. Win.',
+  description: 'Enter the Squid Games Hackathon arena. Build bold ideas, compete for ₹10,000 and ₹5,000 cash prizes, and get recognized for what you create.',
   generator: 'v0.app',
   icons: {
     icon: [
