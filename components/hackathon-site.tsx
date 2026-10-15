@@ -61,7 +61,7 @@ function SectionLabel({ children }: { children: React.ReactNode }) {
 }
 
 function Logo() {
-  return <a href="#top" className="logo" aria-label="Hacklab home"><span className="logo-mark"><span /></span><span>HACKLAB<span className="logo-suffix">/01</span></span></a>
+  return <a href="#top" className="logo" aria-label="Squid Games Hackathon home"><span className="logo-mark"><span /></span><span>SQUID GAMES<span className="logo-suffix">/01</span></span></a>
 }
 
 export default function HackathonSite() {
@@ -84,18 +84,18 @@ export default function HackathonSite() {
 
       <section className="hero section-wrap" aria-labelledby="hero-title">
         <div className="hero-copy">
-          <p className="eyebrow"><span className="live-dot" />The open call for builders</p>
-          <h1 id="hero-title">Make something<br /><em>worth talking about.</em></h1>
-          <p className="hero-description">A focused hackathon for curious minds who turn big questions into practical, powerful projects.</p>
-          <div className="hero-actions"><a href="#register" className="button button-primary">Register now <ArrowUpRight /></a><a href="#about" className="text-link">Explore the hackathon <ArrowDownRight /></a></div>
-          <div className="hero-note"><span>01</span><span className="note-line" /><span>Bring your best idea.</span></div>
+          <p className="eyebrow"><span className="live-dot" />The ultimate coding challenge</p>
+          <h1 id="hero-title">Enter the arena.<br /><em>Build. Compete. Win.</em></h1>
+          <p className="hero-description">Your code. Your creativity. Your moment to shine. Turn an ambitious idea into an innovative solution and compete for cash prizes and recognition.</p>
+          <div className="hero-actions"><a href="#register" className="button button-primary">Join the game <ArrowUpRight /></a><a href="#prizes" className="text-link">Explore the rewards <ArrowDownRight /></a></div>
+          <div className="hero-note"><span>01</span><span className="note-line" /><span>Registration details coming soon.</span></div>
         </div>
-        <div className="hero-art" aria-hidden="true"><div className="art-orbit orbit-one" /><div className="art-orbit orbit-two" /><div className="art-core"><span>BUILD</span><span>WHAT&apos;S</span><span>NEXT</span></div><div className="art-label label-top">CREATIVE<br />COMPUTING</div><div className="art-label label-bottom">001 / 2026</div><div className="art-cross cross-a" /><div className="art-cross cross-b" /></div>
+        <div className="hero-art"><img className="poster-art" src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-hPEAIYgIqR605bhjFr65NS7IdAfZhf.png" alt="Squid Games Hackathon poster showing the ₹10,000 first-place and ₹5,000 second-place prizes" /></div>
       </section>
 
-      <section className="prize-strip"><div className="section-wrap prize-inner"><div className="prize-intro"><p className="eyebrow">The reason to show up</p><h2>Good ideas<br /><em>deserve a stage.</em></h2></div><div className="prize-card prize-first"><span className="prize-kicker">First prize</span><strong>₹10,000</strong><span className="prize-caption">Cash prize</span><Trophy /></div><div className="prize-card prize-second"><span className="prize-kicker">Second prize</span><strong>₹5,000</strong><span className="prize-caption">Cash prize</span><Award /></div></div></section>
+      <section className="prize-strip"><div className="section-wrap prize-inner"><div className="prize-intro"><p className="eyebrow">Big ideas. Real rewards.</p><h2>Compete hard.<br /><em>Get recognized.</em></h2></div><div className="prize-card prize-first"><span className="prize-kicker">First prize</span><strong>₹10,000</strong><span className="prize-caption">Cash prize</span><Trophy /></div><div className="prize-card prize-second"><span className="prize-kicker">Second prize</span><strong>₹5,000</strong><span className="prize-caption">Cash prize</span><Award /></div></div></section>
 
-      <section id="about" className="section-wrap about-section"><div className="about-heading"><SectionLabel>01 / About the hackathon</SectionLabel><h2>Ideas are cheap.<br /><span>Making is everything.</span></h2></div><div className="about-body"><p className="lead">Hacklab is a space to move from “what if?” to “here it is.” Bring a question, a rough sketch, or a half-formed thought. Build it into something people can experience.</p><p className="muted-copy">Whether you are a student, developer, designer, or simply someone who likes solving hard problems, this is your invitation to make practical, creative work with a team or on your own.</p><div className="mini-stats"><div><strong>02</strong><span>cash prizes</span></div><div><strong>01</strong><span>shared stage</span></div><div><strong>∞</strong><span>ways to build</span></div></div></div></section>
+      <section id="about" className="section-wrap about-section"><div className="about-heading"><SectionLabel>01 / About the hackathon</SectionLabel><h2>Ideas are cheap.<br /><span>Making is everything.</span></h2></div><div className="about-body"><p className="lead">More than a hackathon. It&apos;s your moment to turn a bold idea into something real.</p><p className="muted-copy">Bring your creativity, build a solution that matters, and put your skills in front of a wider audience. Participation rules and official dates will be announced by the organizer.</p><div className="mini-stats"><div><strong>02</strong><span>cash prizes</span></div><div><strong>01</strong><span>shared stage</span></div><div><strong>∞</strong><span>ways to build</span></div></div></div></section>
 
       <section id="benefits" className="section-wrap benefits-section"><div className="section-topline"><SectionLabel>02 / Why participate</SectionLabel><span className="topline-note">Take the useful route.</span></div><div className="benefits-grid">{benefits.map(({ icon: Icon, number, title, text }) => <article className="benefit-card" key={number}><span className="card-number">{number}</span><Icon className="benefit-icon" /><h3>{title}</h3><p>{text}</p><ArrowUpRight className="card-arrow" /></article>)}</div></section>
 
